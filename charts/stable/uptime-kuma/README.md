@@ -81,7 +81,7 @@ N/A
 | env.UPTIME_KUMA_SSL_KEY | string | `nil` | Set the custom ssl key path (string) |
 | image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
 | image.repository | string | `"louislam/uptime-kuma"` | image repository |
-| image.tag | string | `"1.10.2"` | image tag |
+| image.tag | string | `"1.11.1"` | image tag |
 | ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
 | persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
 | service | object | See values.yaml | Configures service settings for the chart. |
